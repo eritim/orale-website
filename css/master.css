@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: url(../images/christer_pettersson.jpg) no-repeat fixed center center;
+  background-size: cover;
+}
+
+#cooming-soon {
+  position: fixed;
+  top: 50%;
+  width: 100%;
+  /* TEXT */
+  font-family: 'Indie Flower', cursive;
+  font-size: 64px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 1px black;
+}
+
+#logo {
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+  margin: 10px 10px;
+  color: #fff;
+  text-align: left;
+  text-shadow: 2px 1px black;
+}
