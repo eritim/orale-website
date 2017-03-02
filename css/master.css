@@ -8,6 +8,11 @@ body {
   background-size: cover;
 }
 
+#conspiracy {
+  background: url(../images/nine_elva.jpg) no-repeat fixed center center;
+  background-size: cover;
+}
+
 #cooming-soon {
   position: fixed;
   top: 50%;
@@ -27,4 +32,26 @@ body {
   color: #fff;
   text-align: left;
   text-shadow: 2px 1px black;
+}
+
+#link {
+  font: "Neue Kabel";
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  margin: 10px 10px;
+  top: 20%;
+  left: 50%;
+  right: 50%;
+}
+
+#bottom {
+  background: #000;
+  height: 5%;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
