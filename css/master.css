@@ -17,7 +17,6 @@ body {
   position: fixed;
   top: 50%;
   width: 100%;
-  /* TEXT */
   font-family: 'Indie Flower', cursive;
   font-size: 64px;
   text-align: center;
@@ -32,6 +31,40 @@ body {
   color: #fff;
   text-align: left;
   text-shadow: 2px 1px black;
+}
+
+#bloke {
+  display: inline-block;
+  vertical-align: center;
+  width: 35%;
+  height: 40%;
+  margin: 20px 90px;
+}
+
+#cheek {
+  width: 100px;
+  height: 100px;
+  margin: 10px 10px;
+}
+
+#stalk {
+  text-align: right;
+  float: right;
+}
+
+#truth {
+  vertical-align: center;
+  position: fixed;
+  margin-top: 8%;
+  height: 50%;
+  right: 10%;
+  left: 10%;
+  overflow-y: scroll;
+  color: #fff;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
 }
 
 #link {
