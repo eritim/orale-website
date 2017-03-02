@@ -45,11 +45,14 @@ body {
   width: 100px;
   height: 100px;
   margin: 10px 10px;
+  float: right;
 }
 
 #stalk {
-  text-align: right;
-  float: right;
+  text-align: left;
+  float: left;
+  text-decoration: none;
+  color: #fff;
 }
 
 #truth {
